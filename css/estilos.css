@@ -1,0 +1,166 @@
+
+*{
+	border-radius: 0 !important;
+}
+html, body { 
+	overflow-x: hidden; 
+}
+body { 
+	font-family: Arial, Helvetica, sans-serif; 
+	width: 940px;
+    margin: 0px auto;
+	background-color: #7e7a73;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width: 768px){
+	body{	
+		font-size:80%;	
+		width: 45%;
+	}
+}
+div, a, p { 
+	text-decoration: none;
+	color: #000000; 
+	font-size: 15px
+}
+h1{
+	margin-top: 0;
+	font-size: 30px
+}
+
+#app{
+	margin: 50px auto;
+}
+
+img.foto-autor{
+	filter: grayscale(50%);
+}
+@media(max-width: 768px){
+	img.foto-autor{
+		filter: grayscale(50%);
+		width: 45%;
+	}
+}
+img.plibro{
+	filter: grayscale(100%);
+	transition: all 1s;
+	width: 35%;
+	margin-bottom: 15px;
+}
+	img.plibro:hover{
+		filter: grayscale(0);
+	}
+.paneld{
+	border: 0;
+	box-shadow: none;
+}
+
+	.paneld .panelf{
+		background: none;
+		border-color: #f1f1f1;
+	}
+
+	@media(max-width: 600px){
+		.paneld .panelf{
+			text-align: right;
+			padding-right: 0;
+		}
+	}
+
+/*.thumbnail{
+	padding: 0;
+	border: 0;
+}
+
+	.thumbnail .caption{
+		padding: 15px 0 0;
+	}
+
+.modal.nuevo-artista{
+	display: block;
+	background: rgba(53, 73, 94, .2);
+}
+	.nescritor .econtent{
+		box-shadow: none;
+		border: 0;
+	}
+
+.c-no-encontrado{
+	margin-top: 200px;
+}
+	@media(max-width: 768px){
+		.c-no-encontrado{
+			margin-top: 50px;
+		}
+	}*/
+div.container {
+	width: 96%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+img {
+	width: 30%;
+	height: auto;
+}
+img.img-logo{
+	width: 8%;
+	float: right;
+	margin-bottom: 20px;
+	
+}
+button{
+	color: #e7e4df;
+	background-color: #474141;
+}
+form{
+  	text-align: center;
+  	margin: 1rem;
+  	padding: 1rem;
+  	border-radius: 5% ;
+}
+.eheader{
+	text-align: center;
+	margin-top: 30px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    font-size: 12px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+input[type="submit"] {
+    color: 65500f;
+    margin-bottom: 25px;  
+    text-align: center;
+}
+.close{
+	float: right ;	
+}
+.formc{
+	text-align: center;
+	display: block;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    font-size: 12px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+@media(max-width: 768px){
+	img.foto-autor{
+		filter: grayscale(50%);
+		width: 100%;
+	}
+}
